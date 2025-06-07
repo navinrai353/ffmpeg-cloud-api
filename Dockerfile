@@ -8,4 +8,5 @@ RUN chmod +x /app/server.sh
 
 EXPOSE 80
 
-CMD ["bash", "/app/server.sh"]
+ENTRYPOINT ["bash", "/app/server.sh"]
+
